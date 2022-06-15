@@ -1,0 +1,22 @@
+queries {
+  start_timestamp_ms: 1654861363500
+  end_timestamp_ms: 1654861963500
+  matchers {
+    name: "host"
+    value: "smash-cn-alibj-battle-006"
+  }
+  matchers {
+    name: "xdinc_project"
+    value: "flashparty"
+  }
+  matchers {
+    name: "__name__"
+    value: "system_uptime"
+  }
+  hints {
+    func: "delta"
+    start_ms: 1654861363500
+    end_ms: 1654861963500
+    range_ms: 600000
+  }
+}
